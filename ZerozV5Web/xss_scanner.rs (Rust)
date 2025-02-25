@@ -1,0 +1,19 @@
+// Simple XSS vulnerability scanner
+use std::io;
+
+fn main() {
+    println!("ZerozV5Web XSS Scanner");
+    println!("Enter URL to scan (e.g., http://example.com/input):");
+    let mut url = String::new();
+    io::stdin().read_line(&mut url).expect("Failed to read URL");
+
+    let payloads = vec!["<script>alert('xss')</script>", "javascript:alert('xss')"];
+    for payload in payloads {
+        println!("Testing payload: {}", payload);
+        // Simulate sending payload (add reqwest crate for real HTTP)
+        println!("Result: Check manually if '{}' triggers alert!", payload);
+    }
+}
+
+// Run: rustc xss_scanner.rs && ./xss_scanner
+// For HTTP: Add `reqwest` crate via Cargo.toml
