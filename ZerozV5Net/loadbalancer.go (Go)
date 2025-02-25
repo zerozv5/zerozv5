@@ -1,0 +1,22 @@
+package main
+
+import (
+    "fmt"
+    "net/http"
+    "math/rand"
+)
+
+var servers = []string{"127.0.0.1:8080", "127.0.0.1:8081"}
+
+func handler(w http.ResponseWriter, r *http.Request) {
+    target := servers[rand.Intn(len(servers))]
+    http.Redirect(w, r, "http://"+target, http.StatusTemporaryRedirect)
+}
+
+func main() {
+    http.HandleFunc("/", handler)
+    fmt.Println("ZerozV5Net Load Balancer on :9000")
+    http.ListenAndServe(":9000", nil)
+}
+
+// Run: go run loadbalancer.go
