@@ -11,6 +11,11 @@
 - 🌱 Currently exploring: The wildest corners of programming.
 - 🎯 Mission: To conquer the toughest languages, one error at a time.
 
+### 🚀 My Magnum Opus
+Dive into **[ZerozV5Net](./ZerozV5Net)** — A distributed chat system powered by:
+- Rust (server) | C++ (client) | Haskell (parser)  
+- Go (load balancer) | Erlang (nodes) | Scala (monitor) | Assembly (crypto)
+
 ### 🛠️ My Toolbox of Madness
 <p align="center">
   <img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white" alt="Rust">
