@@ -1,0 +1,21 @@
+// Directory enumerator
+#include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    cout << "ZerozV5Web Directory Enumerator" << endl;
+    cout << "Enter base URL (e.g., http://example.com/): ";
+    string url;
+    cin >> url;
+
+    vector<string> dirs = {"/admin", "/login", "/backup", "/test"};
+    for (const string& dir : dirs) {
+        cout << "Testing: " << url + dir << endl;
+        // Add curl/libcurl for real HTTP checks
+    }
+    cout << "Check responses manually for 200 OK!" << endl;
+    return 0;
+}
+
+// Run: g++ dir_enum.cpp -o dir_enum && ./dir_enum
