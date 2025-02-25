@@ -1,0 +1,25 @@
+// CSRF protection tester
+package main
+
+import (
+    "fmt"
+    "net/http"
+)
+
+func main() {
+    fmt.Println("ZerozV5Web CSRF Tester")
+    fmt.Println("Enter form URL (e.g., http://example.com/login):")
+    var url string
+    fmt.Scanln(&url)
+
+    resp, err := http.Get(url)
+    if err != nil {
+        fmt.Println("Error:", err)
+        return
+    }
+    defer resp.Body.Close()
+    fmt.Println("Status:", resp.Status)
+    fmt.Println("Check manually: Does form have CSRF token in headers?")
+}
+
+// Run: go run csrf_test.go
