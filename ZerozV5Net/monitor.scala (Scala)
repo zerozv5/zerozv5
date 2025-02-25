@@ -1,0 +1,20 @@
+import java.io.{File, PrintWriter}
+import java.time.LocalDateTime
+
+object Monitor {
+  case class Stats(cpu: Double, memory: Long, messages: Int)
+
+  def log(stats: Stats): Unit = {
+    val writer = new PrintWriter(new File("logs/monitor.log"))
+    writer.write(s"${LocalDateTime.now()} | CPU: ${stats.cpu}% | Mem: ${stats.memory / (1024 * 1024)}MB | Msgs: ${stats.messages}\n")
+    writer.close()
+  }
+
+  def main(args: Array[String]): Unit = {
+    val stats = Stats(85.3, 1024 * 1024 * 768, 100)
+    println(s"Monitoring: ${stats}")
+    log(stats)
+  }
+}
+
+// Run: mkdir logs && scalac monitor.scala && scala Monitor
