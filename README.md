@@ -8,13 +8,18 @@
 ### 🌌 About Me
 - 🧠 A curious soul lost in the galaxy of code.
 - 💻 I tinker with stuff, break things, and occasionally make them work.
-- 🌱 Currently exploring: **Python**, **JavaScript**, and the mysteries of the universe.
-- 🎯 Mission: To build something useful, one error at a time.
+- 🌱 Currently exploring: The wildest corners of programming.
+- 🎯 Mission: To conquer the toughest languages, one error at a time.
 
-### 🛠️ My Toolbox
+### 🛠️ My Toolbox of Madness
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Rust-000000?style=flat&logo=rust&logoColor=white" alt="Rust">
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white" alt="C++">
+  <img src="https://img.shields.io/badge/Haskell-5D4F85?style=flat&logo=haskell&logoColor=white" alt="Haskell">
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white" alt="Go">
+  <img src="https://img.shields.io/badge/Erlang-A90533?style=flat&logo=erlang&logoColor=white" alt="Erlang">
+  <img src="https://img.shields.io/badge/Scala-DC322F?style=flat&logo=scala&logoColor=white" alt="Scala">
+  <img src="https://img.shields.io/badge/Assembly-6E4C13?style=flat&logo=gnu&logoColor=white" alt="Assembly">
   <img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white" alt="Git">
   <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=visual-studio-code&logoColor=white" alt="VS Code">
 </p>
@@ -27,7 +32,7 @@
 
 ### 🚀 What I’m Up To
 - 🔭 Working on: A secret project that might crash and burn (or not).
-- 📚 Learning: How to debug my life along with my code.
+- 📚 Learning: How to tame the beasts of low-level and functional programming.
 - 💡 Fun fact: I believe 404 errors are just the universe’s way of saying "try again."
 
 ### 📡 Connect With Me
