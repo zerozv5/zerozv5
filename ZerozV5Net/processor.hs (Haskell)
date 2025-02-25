@@ -1,0 +1,20 @@
+module Main where
+
+data Message = Msg { user :: String, content :: String } deriving Show
+
+parseMessage :: String -> Either String Message
+parseMessage msg = 
+    case words msg of
+        ("send":u:rest) -> Right $ Msg u (unwords rest)
+        ["list"] -> Right $ Msg "" "list"
+        _ -> Left "Invalid: use 'send <user> <msg>' or 'list'"
+
+main :: IO ()
+main = do
+    putStrLn "Enter message:"
+    msg <- getLine
+    case parseMessage msg of
+        Right m -> putStrLn $ "Parsed: " ++ show m
+        Left err -> putStrLn err
+
+-- Run: ghc processor.hs && ./processor
