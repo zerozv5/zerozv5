@@ -1,0 +1,38 @@
+use std::net::{TcpListener, TcpStream};
+use std::io::{Read, Write};
+use std::collections::HashMap;
+use std::sync::{Arc, Mutex};
+
+fn handle_client(stream: TcpStream, users: Arc<Mutex<HashMap<String, TcpStream>>>) {
+    let mut buffer = [0; 1024];
+    let mut stream_clone = stream.try_clone().unwrap();
+    stream_clone.read(&mut buffer).unwrap();
+    let msg = String::from_utf8_lossy(&buffer[..]).trim().to_string();
+
+    if msg.starts_with("join ") {
+        let user = msg.split(" ").nth(1).unwrap().to_string();
+        let mut users_lock = users.lock().unwrap();
+        users_lock.insert(user.clone(), stream.try_clone().unwrap());
+        println!("User {} joined", user);
+    } else {
+        println!("Broadcast: {}", msg);
+    }
+}
+
+fn main() {
+    let listener = TcpListener::bind("127.0.0.1:8080").unwrap();
+    let users = Arc::new(Mutex::new(HashMap::new()));
+    println!("ZerozV5Net Server on :8080");
+
+    for stream in listener.incoming() {
+        let users_clone = Arc::clone(&users);
+        match stream {
+            Ok(stream) => {
+                std::thread::spawn(move || handle_client(stream, users_clone));
+            }
+            Err(e) => println!("Error: {}", e),
+        }
+    }
+}
+
+// Run: rustc server.rs && ./server
