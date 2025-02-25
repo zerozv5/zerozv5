@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', monospace;
+    background: #0d0d0d; /* Ubah warna bg */
+    color: #ff4444;
+}
+
+.container {
+    text-align: center;
+    padding: 50px 20px;
+    animation: glitch 1s infinite;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #ff4444; /* Ubah warna border */
+}
+
+h1 {
+    font-size: 3rem;
+    color: #ff4444; /* Ubah warna nama */
+    animation: glitchText 0.5s infinite;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #ff6666; /* Ubah warna tagline */
+}
+
+.social-links a {
+    color: #ff4444; /* Ubah warna link */
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.social-links a:hover {
+    color: #fff; /* Ubah warna hover */
+}
+
+.decor {
+    width: 100px; /* Ubah ukuran */
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+@keyframes glitch {
+    0% { transform: translate(0); }
+    20% { transform: translate(-5px, 5px); }
+    40% { transform: translate(5px, -5px); }
+    60% { transform: translate(-5px, 0); }
+    80% { transform: translate(5px, 0); }
+    100% { transform: translate(0); }
+}
+
+@keyframes glitchText {
+    0% { clip: rect(10px, 9999px, 50px, 0); }
+    50% { clip: rect(20px, 9999px, 40px, 0); }
+    100% { clip: rect(15px, 9999px, 45px, 0); }
+}
+
+@media (max-width: 600px) {
+    h1 { font-size: 2rem; }
+    .profile-pic { width: 100px; height: 100px; }
+}
