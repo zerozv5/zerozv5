@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', monospace;
+    background: #ff69b4; /* Ubah warna bg */
+    color: #00ced1;
+}
+
+.container {
+    text-align: center;
+    padding: 50px 20px;
+    animation: blink 1s infinite;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #00ced1; /* Ubah warna border */
+    image-rendering: pixelated; /* Efek retro */
+}
+
+h1 {
+    font-size: 3rem;
+    color: #00ced1; /* Ubah warna nama */
+    margin: 20px 0;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #fff; /* Ubah warna tagline */
+}
+
+.social-links a {
+    color: #00ced1; /* Ubah warna link */
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.social-links a:hover {
+    color: #fff; /* Ubah warna hover */
+}
+
+.decor {
+    width: 100px; /* Ubah ukuran */
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0.7; }
+    100% { opacity: 1; }
+}
+
+@media (max-width: 600px) {
+    h1 { font-size: 2rem; }
+    .profile-pic { width: 100px; height: 100px; }
+}
