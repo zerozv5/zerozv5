@@ -1,0 +1,19 @@
+-module(node).
+-export([start/0, loop/1]).
+
+start() ->
+    register(node, spawn(fun() -> loop([]) end)).
+
+loop(Users) ->
+    receive
+        {From, {join, User}} ->
+            io:format("Node: ~p joined~n", [User]),
+            loop([User | Users]);
+        {From, Msg} ->
+            io:format("Node: ~p~n", [Msg]),
+            From ! {self(), "ACK"},
+            loop(Users);
+        stop -> ok
+    end.
+
+% Run: erlc node.erl && erl -s node start
