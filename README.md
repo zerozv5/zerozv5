@@ -30,6 +30,10 @@ A distributed chat system engineered with cutting-edge languages and architectur
   Ethical hacking toolkit for learning cybersecurity.  
   [![Status](https://img.shields.io/badge/Status-Active-blue)](https://github.com/zerozv5/zerozv5)
 
+  **[ZerozV5Web](./ZerozV5Web)**  
+  Web pentesting toolkit.  
+  [![Status](https://img.shields.io/badge/Status-Active-blue)](https://github.com/zerozv5/zerozv5)
+
 ---
 
 ## 🛠️ Technologies
