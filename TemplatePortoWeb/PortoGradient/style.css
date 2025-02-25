@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2); /* Ubah gradient */
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    padding: 50px 20px;
+    animation: slideIn 1.5s ease-out;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff; /* Ubah warna border */
+    transition: transform 0.3s;
+}
+
+.profile-pic:hover {
+    transform: scale(1.1); /* Ubah skala hover */
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fff; /* Ubah warna nama */
+    margin: 20px 0;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    color: #dcdcdc; /* Ubah warna tagline */
+}
+
+.social-links a {
+    color: #fff; /* Ubah warna link */
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #e0c3fc; /* Ubah warna hover */
+}
+
+.decor {
+    width: 100px; /* Ubah ukuran */
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    opacity: 0.7;
+}
+
+@keyframes slideIn {
+    from { opacity: 0; transform: translateX(-20px); }
+    to { opacity: 1; transform: translateX(0); }
+}
+
+@media (max-width: 600px) {
+    h1 { font-size: 2rem; }
+    .profile-pic { width: 100px; height: 100px; }
+}
