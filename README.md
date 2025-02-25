@@ -94,7 +94,7 @@ I'm a dedicated software engineer and cybersecurity enthusiast with a passion fo
 ## 📬 Contact
 <div align="center">
   <a href="mailto:zeroz.vi5@gmail.com"><img src="https://img.shields.io/badge/Email-zeroz.vi5@gmail.com-0078D4?style=flat-square&logo=microsoft-outlook&logoColor=white" alt="Email"></a>
-  <a href="https://x.com/AgilSieroz"><img src="https://img.shields.io/badge/Twitter-@AgilSieroz-1DA1F2?style=flat-square&logo=twitter&logoColor=white" alt="Twitter"></a>
+  <a href="https://x.com/AgilSieroz"><img src="https://img.shields.io/badge/X-@AgilSieroz-1DA1F2?style=flat-square&logo=twitter&logoColor=white" alt="Twitter"></a>
   <a href="[link-portfolio-kalau-ada]"><img src="https://img.shields.io/badge/Portfolio-Visit-FF6C37?style=flat-square&logo=web&logoColor=white" alt="Portfolio"></a>
 </div>
 
