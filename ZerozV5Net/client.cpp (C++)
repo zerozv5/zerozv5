@@ -1,0 +1,36 @@
+#include <iostream>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+#include <unistd.h>
+#include <string.h>
+using namespace std;
+
+int main() {
+    int sock = socket(AF_INET, SOCK_STREAM, 0);
+    struct sockaddr_in server;
+    server.sin_addr.s_addr = inet_addr("127.0.0.1");
+    server.sin_family = AF_INET;
+    server.sin_port = htons(8080);
+
+    connect(sock, (struct sockaddr*)&server, sizeof(server));
+    cout << "Connected to ZerozV5Net. Enter username: ";
+    string user;
+    getline(cin, user);
+    string join_msg = "join " + user;
+    send(sock, join_msg.c_str(), join_msg.length(), 0);
+
+    cout << "Commands: send <user> <msg>, list, exit\n";
+    while (true) {
+        string input;
+        getline(cin, input);
+        send(sock, input.c_str(), input.length(), 0);
+        if (input == "exit") break;
+        char buffer[1024] = {0};
+        read(sock, buffer, 1024);
+        cout << "Server: " << buffer << endl;
+    }
+    close(sock);
+    return 0;
+}
+
+// Run: g++ client.cpp -o client && ./client
