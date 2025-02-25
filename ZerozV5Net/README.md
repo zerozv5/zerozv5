@@ -1,6 +1,9 @@
 # ZerozV5Net
 A distributed chat system crafted with the toughest languages.
 
+## Demo
+![ZerozV5Net Demo](https://media.giphy.com/media/YOUR_GIF_ID/giphy.gif)
+
 ## Features
 - Multi-node real-time chat.
 - XOR-encrypted messages.
@@ -28,9 +31,6 @@ A distributed chat system crafted with the toughest languages.
 - `send <user> <message>`
 - `list`
 - `exit`
-
-## Demo
-![ZerozV5Net Demo](https://media.giphy.com/media/YOUR_GIF_ID/giphy.gif)
 
 ## Status
 [![Build](https://img.shields.io/badge/Build-Passing-brightgreen)](https://github.com/zerozv5/zerozv5)
