@@ -19,6 +19,10 @@ I'm a passionate developer diving deep into the complexities of programming. My 
 **[ZerozV5Net](./ZerozV5Net)**  
 A distributed chat system engineered with cutting-edge languages and architectures.
 
+**[CyberZerozV5](./CyberZerozV5)**  
+  Ethical hacking toolkit for learning cybersecurity.  
+  [![Status](https://img.shields.io/badge/Status-Active-blue)](https://github.com/zerozv5/zerozv5)
+
 - **Tech Stack**:  
   Rust (Server) | C++ (Client) | Haskell (Parser)  
   Go (Load Balancer) | Erlang (Nodes) | Scala (Monitoring) | Assembly (Crypto)  
