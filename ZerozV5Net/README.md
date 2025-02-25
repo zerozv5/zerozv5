@@ -28,3 +28,6 @@ A distributed chat system crafted with the toughest languages.
 - `send <user> <message>`
 - `list`
 - `exit`
+
+## Status
+[![Build](https://img.shields.io/badge/Build-Passing-brightgreen)](https://github.com/zerozv5/zerozv5)
