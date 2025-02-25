@@ -29,5 +29,8 @@ A distributed chat system crafted with the toughest languages.
 - `list`
 - `exit`
 
+## Demo
+![ZerozV5Net Demo](https://media.giphy.com/media/YOUR_GIF_ID/giphy.gif)
+
 ## Status
 [![Build](https://img.shields.io/badge/Build-Passing-brightgreen)](https://github.com/zerozv5/zerozv5)
