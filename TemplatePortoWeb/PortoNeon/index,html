@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ubah judul di bawah ini jadi nama atau tagline portofoliomu -->
+    <title>ZerozV5 | PortoNeon</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Ganti 'profile.jpg' dengan path ke foto profilmu (upload ke folder ini atau pakai URL eksternal) -->
+        <img src="profile.jpg" alt="ZerozV5 Profile" class="profile-pic">
+        <!-- Ganti 'ZerozV5' dengan nama aslimu atau username -->
+        <h1>ZerozV5</h1>
+        <!-- Ubah tagline ini sesuai profesi atau slogamu -->
+        <p class="tagline">Cyber Enthusiast & Code Architect</p>
+        <div class="social-links">
+            <!-- Ganti 'zerozv5@example.com' dengan emailmu -->
+            <a href="mailto:zerozv5@example.com">Email</a>
+            <!-- Ganti '#' dengan link GitHub-mu (contoh: https://github.com/zerozv5) -->
+            <a href="#">GitHub</a>
+            <!-- Tambah link lain (Twitter, LinkedIn, dll) di sini kalau mau -->
+        </div>
+        <!-- Ganti 'decor.png' dengan gambar dekorasi pilihanmu (upload atau URL) -->
+        <img src="decor.png" alt="Neon Decor" class="decor">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
