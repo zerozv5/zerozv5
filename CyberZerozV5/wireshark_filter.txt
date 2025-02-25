@@ -1,0 +1,7 @@
+# Wireshark filters for analysis
+http.request.method == "POST"  # Capture POST requests
+tcp.port == 80                # HTTP traffic
+ip.addr == 192.168.1.1        # Specific IP
+
+# Install: sudo apt install wireshark
+# Open Wireshark, load a capture, apply filters above
