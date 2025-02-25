@@ -1,0 +1,6 @@
+# Proxy Config for Web Pentesting
+Tool: Burp Suite or OWASP ZAP
+1. Set proxy: 127.0.0.1:8080
+2. Configure browser to use proxy.
+3. Start intercepting traffic.
+4. Analyze requests/responses for vulnerabilities.
