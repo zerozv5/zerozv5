@@ -1,0 +1,9 @@
+# Simulates cookie stealing (educational)
+print("ZerozV5Web Cookie Stealer Demo")
+cookie = input("Enter sample cookie (e.g., session=abc123): ")
+
+with open("stolen_cookies.txt", "a") as f:
+    f.write(f"Cookie: {cookie}\n")
+print("Cookie 'stolen' to stolen_cookies.txt (demo only!)")
+
+# Run: python3 cookie_stealer.py
