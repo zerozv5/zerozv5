@@ -16,7 +16,7 @@ I'm a dedicated software engineer and cybersecurity enthusiast with a passion fo
 
 ---
 
-## Key Projects
+## Folder
 <div>
   <h3><a href="./ZerozV5Net">ZerozV5Net</a></h3>
   <p>A distributed chat system built with cutting-edge technologies.</p>
@@ -40,7 +40,7 @@ I'm a dedicated software engineer and cybersecurity enthusiast with a passion fo
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 ### Core Languages
 <div align="center">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
