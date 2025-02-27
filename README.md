@@ -7,7 +7,7 @@
 
 ---
 
-## 👤 Profile
+## Profile
 I'm a dedicated software engineer and cybersecurity enthusiast with a passion for creating robust, scalable systems. My work spans web development, distributed architectures, and ethical hacking, driven by a relentless pursuit of technical mastery.
 
 - **Expertise**: Full-stack development, system programming, and penetration testing.
@@ -16,7 +16,7 @@ I'm a dedicated software engineer and cybersecurity enthusiast with a passion fo
 
 ---
 
-## 🏆 Key Projects
+## Key Projects
 <div>
   <h3><a href="./ZerozV5Net">ZerozV5Net</a></h3>
   <p>A distributed chat system built with cutting-edge technologies.</p>
@@ -74,7 +74,7 @@ I'm a dedicated software engineer and cybersecurity enthusiast with a passion fo
 
 ---
 
-## 📈 Activity & Stats
+## Activity & Stats
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=zerozv5&show_icons=true&theme=dracula&hide_border=true&count_private=true" alt="GitHub Stats" width="420">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=zerozv5&theme=dracula&hide_border=true" alt="GitHub Streak" width="420">
@@ -83,7 +83,7 @@ I'm a dedicated software engineer and cybersecurity enthusiast with a passion fo
 
 ---
 
-## 🌟 Current Focus
+## Current Focus
 - **Development**: Expanding ZerozV5Net with real-time features and database integration.
 - **Research**: Exploring blockchain security and AI-driven pentesting.
 - **Skills**: Mastering concurrency in Rust and functional programming in Haskell.
@@ -91,7 +91,7 @@ I'm a dedicated software engineer and cybersecurity enthusiast with a passion fo
 
 ---
 
-## 📬 Contact
+## Contact
 <div align="center">
   <a href="mailto:zeroz.vi5@gmail.com"><img src="https://img.shields.io/badge/Email-zeroz.vi5@gmail.com-0078D4?style=flat-square&logo=microsoft-outlook&logoColor=white" alt="Email"></a>
   <a href="https://x.com/AgilSieroz"><img src="https://img.shields.io/badge/X-@zerozv5-1DA1F2?style=flat-square&logo=twitter&logoColor=white" alt="Twitter"></a>
@@ -100,7 +100,7 @@ I'm a dedicated software engineer and cybersecurity enthusiast with a passion fo
 
 ---
 
-## 🤝 Open Source Contributions
+## Open Source Contributions
 - Actively contributing to projects in cybersecurity and systems programming.
 - Open to collaboration—fork my repos or submit pull requests!
 
